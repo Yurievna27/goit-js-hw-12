@@ -206,35 +206,27 @@ main {
   display: none;
 }
 
-/* .loader {
+.show-more-btn {
   display: block;
-  width: 48px;
-  height: 48px;
-  margin: 24px auto;
-  border: 5px solid #e5e7eb;
-  border-top-color: #4e75ff;
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
+  margin: 32px auto 0;
+  padding: 8px 16px;
+  min-width: 125px;
+  height: 40px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #4e75ff;
+  color: white;
+
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.loader.hidden {
+.show-more-btn:hover {
+  background-color: #6c8cff;
+}
+
+.show-more-btn.hidden {
   display: none;
 }
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (max-width: 900px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-} */
